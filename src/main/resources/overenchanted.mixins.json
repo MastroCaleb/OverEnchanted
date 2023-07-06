@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "caleb.overenchanted.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "UnlimitedLevelsMixin",
+    "RomanLevelTranslationMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

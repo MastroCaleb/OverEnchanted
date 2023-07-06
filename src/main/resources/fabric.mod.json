@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "overenchanted",
+  "version": "${version}",
+
+  "name": "Over Enchanted",
+  "description": "Makes the max level of ANY Enchantment infinite",
+  "authors": [
+    "Caleb"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/overenchanted/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "overenchanted.mixins.json"
+  ],
+
+  "suggests": {
+    "another-mod": "*"
+  }
+}
