@@ -37,6 +37,7 @@ public abstract class UnlimitedLevelsMixin {
 		 */
 		overenchanted_preValue = r;
 		if(ench.getMaxLevel() == 1){
+			//If the max level is one, it probably doesn't support multiple levels so we just don't care about over enchanting it.
 			overenchanted_preValue = 0;
 		}
 	}
